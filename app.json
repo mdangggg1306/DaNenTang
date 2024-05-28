@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "my-app-ss",
+    "slug": "my-app-ss",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.myapp.my-app-ss",
+      "supportsTablet": true,
+      "infoPlist" :{
+        "CFBundleURLTypes": [
+          {
+            "CFBundleTypeRole": "Editor",
+            "CFBundleURLName": "my-app-ss",
+            "CFBundleURLSchemes": [
+              "my-app-ss"
+            ]
+          }
+        ]
+      }
+    },
+    "android": {
+      "package": "com.myapp.my-app-ss",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
